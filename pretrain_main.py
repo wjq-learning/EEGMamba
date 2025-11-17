@@ -4,7 +4,6 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from models.cbramod import CBraMod
 from pretrain_trainer import Trainer
 from datasets.pretraining_dataset import PretrainingDataset, CustomSampler
 from torch.utils.data import ConcatDataset
